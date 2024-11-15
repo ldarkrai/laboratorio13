@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+      background: url('https://r4.wallpaperflare.com/wallpaper/244/708/912/suzume-no-tojimari-anime-landscape-field-door-hd-wallpaper-b826ed8870e0bc18803cd16e5822146a.jpg') no-repeat center center fixed; 
+      background-size: cover;
+      font-family: 'Sour Gummy';
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #e0e0e0;
+    }
+    
+    .calculator-container {
+      background-color: rgba(0, 0, 0, 0.788);
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      width: 350px;
+    }
+
+    .calculator-container h1 {
+      color: #a1c4fd;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+
+    /* Estilos para el input y botones */
+    .inputs {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .numeros{
+      background: #414141;
+      border: none;
+      color: #fff;
+      padding: 10px;
+      width: 100%;
+      font-size: 1rem;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .button {
+      background-color: #a1c4fd;
+      color: #28282b;
+      font-size: 1rem;
+      padding: 10px 0;
+      flex: 1;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #89aaf8;
+    }
+
+    .result {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      color: #a1c4fd;
+    }
